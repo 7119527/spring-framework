@@ -52,4 +52,7 @@ public abstract class AotDetector {
 		return (inNativeImage || SpringProperties.getFlag(AOT_ENABLED));
 	}
 
+	public static void main(String[] args) {
+		System.out.println("add sout out");
+	}
 }
